@@ -1,6 +1,6 @@
 # Hackintosh-Intel-i5-10400-Gigabyte-Z490M-Gaming-X
 
-# Hardware:
+# ![Screen Shot 2020-06-11 at 11.48.59 PM](./Screen Shot.png)Hardware:
 
 CPU: [Intel Core 10 Gen i5-10400]
 RAM: [HyperX Fury 32GB 2666MHz DDR4 CL16 DIMM (Kit of 2)]
@@ -23,7 +23,7 @@ Opencore 0.5.9
 
 # Installation Steps:
 
-**Most of these steps comes from the dortania dortania installation guide.** Make sure to read those instructions.
+**Most of these steps comes from the dortania installation guide.** Make sure to read those instructions.
 
 ## GibMacOS
 
