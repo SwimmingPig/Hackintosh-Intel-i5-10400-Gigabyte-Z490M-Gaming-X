@@ -1,0 +1,1 @@
+# Hackintosh-Intel-i5-10400-Gigabyte-Z490M-Gaming-X
