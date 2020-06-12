@@ -1,6 +1,6 @@
 # Hackintosh-Intel-i5-10400-Gigabyte-Z490M-Gaming-X
 
-![Screen Shot 2020-06-11 at 11.48.59 PM](./Screen\ Shot.png?raw=true)
+![Screen Shot](./Screenshot.png?raw=true)
 
 # Hardware:
 
