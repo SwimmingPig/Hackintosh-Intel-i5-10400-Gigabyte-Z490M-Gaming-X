@@ -1,6 +1,6 @@
 # Hackintosh-Intel-i5-10400-Gigabyte-Z490M-Gaming-X
 
-![Screen Shot](./Screenshot.png?raw=true)
+![Screen Shot](./Images/Screenshot.png?raw=true)
 
 # Hardware:
 
@@ -30,7 +30,7 @@ Opencore 0.5.9
 
 # Installation Steps:
 
-**Most of these steps comes from the dortania installation guide.** Make sure to read those instructions.
+**Most of these steps comes from the [dortania's](https://dortania.github.io/OpenCore-Desktop-Guide/) installation guide.** Make sure to read those instructions.
 
 ## GibMacOS
 
@@ -70,25 +70,17 @@ Opencore 0.5.9
 
 ## Get Firmware Drivers
 
-------
-
 [Gathering files](https://dortania.github.io/OpenCore-Desktop-Guide/ktext.html)
 
 - Added HfsPlus.efi for reading Hfs filesystems. In total there are three drivers, AudioDXE.efi, OpenRuntime.efi and HfsPlus.efi.
 
 ## Get Kexts
 
-------
+[Kexts Repo](https://onedrive.live.com/?authkey=!APjCyRpzoAKp4xs&id=FE4038DA929BFB23!455036&cid=FE4038DA929BFB23)
 
-[OneDrive](https://onedrive.live.com/?authkey=!APjCyRpzoAKp4xs&id=FE4038DA929BFB23!455036&cid=FE4038DA929BFB23)
-
-Kexts Repo
-
-![img](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7736dc89-4bef-4efb-adef-19ae9561532c/_%282%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20200612%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20200612T064540Z&X-Amz-Expires=86400&X-Amz-Signature=66ee5839cf1d6b5d71648947a96475acec46c270492e210de673564589254bc6&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_%282%29.png%22)
+![Kexts](./Images/kexts.png?raw=true)
 
 ## ACPI SSDT
-
-------
 
 [corpnewt/SSDTTime](https://github.com/corpnewt/SSDTTime)
 
@@ -98,8 +90,6 @@ Kexts Repo
 - Copy results excepte DSDT.ami to ACPI folder under EFI/OC
 
 ## config.plist
-
-------
 
 - Download OpenCorePkg's releases.
 
@@ -125,8 +115,6 @@ Added SSDT-AWAC.aml to config.plist
 
 ## Bios Settings
 
-------
-
 **Disable:**
 
 - Fast Boot
@@ -135,7 +123,7 @@ Added SSDT-AWAC.aml to config.plist
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel SGX
 - Intel Platform Trust
-- CFG Lock (MSR 0xE2 write protection)(**This must be off, if you can't find the option then enable both `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled**) **NOT FOUND**
+- CFG Lock (MSR 0xE2 write protection) (**This must be off, if you can't find the option then enable both `AppleCpuPmCfgLock` and `AppleXcpmCfgLock` under Kernel -> Quirks. Your hack will not boot with CFG-Lock enabled**) **NOT FOUND**
 
 **Enable:**
 
@@ -144,7 +132,7 @@ Added SSDT-AWAC.aml to config.plist
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
-- OS type: Windows 8.1/10 UEFI Mode **(Windows 10 Feautres: Ohter)**
+- OS type: (Windows 10 Feautres: Ohter)
 - DVMT Pre-Allocated(iGPU Memory): 64MB
 
 # Post Installation
@@ -157,7 +145,7 @@ Added SSDT-AWAC.aml to config.plist
 
    ## Fixing Audio:
 
-   [^]: Thanks for [rcozinheiro](https://www.reddit.com/user/rcozinheiro/) for the solution.
+   >  Thanks for [rcozinheiro](https://www.reddit.com/user/rcozinheiro/) for the solution.
 
    Make sure these three kexts are in the EFI:
 
