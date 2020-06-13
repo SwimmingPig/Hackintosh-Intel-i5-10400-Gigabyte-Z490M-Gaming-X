@@ -28,10 +28,6 @@ Case: [darkFlash DLM21 White Micro ATX Mini Tower]
 
 Opencore 0.5.9
 
-# Not Working:
-
-**Audio:** Tried multiple alcid for the ALC1200 from the motherboard, recognised hardware, but no audio output.
-
 # Installation Steps:
 
 **Most of these steps comes from the dortania installation guide.** Make sure to read those instructions.
@@ -153,12 +149,28 @@ Added SSDT-AWAC.aml to config.plist
 
 # Post Installation
 
-------
-
 1. Boot without USB: Copy the EFI folder on the usb to the mounted efi on main computer using "Mount EFI".
 
    [corpnewt/MountEFI](https://github.com/corpnewt/MountEFI)
 
 2. Exclude Verbose Mode
 
-3. Fixing Audio
+   ## Fixing Audio:
+
+   [^]: Thanks for [rcozinheiro](https://www.reddit.com/user/rcozinheiro/) for the solution.
+
+   Make sure these three kexts are in the EFI:
+
+   - AppleALC.kext
+
+   - FakePCIID.kext
+
+   - FakePCIID_Intel_HDMI_Audio.kext
+
+   And edit the config.plist by adding under DeviceProperties -> Add:
+
+   - PciRoot(0x0)/Pci(0x1F,0x3)
+     - device-id data 70A10000
+     - layout-id data 01000000
+
+   Also make sure removing the alcid argv in the boot settings.
