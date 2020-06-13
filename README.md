@@ -145,7 +145,7 @@ Added SSDT-AWAC.aml to config.plist
 
    ## Fixing Audio:
 
-   >  Thanks for [rcozinheiro](https://www.reddit.com/user/rcozinheiro/) for the solution.
+   >  Thanks for [rcozinheiro](https://www.reddit.com/r/hackintosh/comments/h7g3ou/is_applealc_supporting_z490_motherboards/) for the solution.
 
    Make sure these three kexts are in the EFI:
 
