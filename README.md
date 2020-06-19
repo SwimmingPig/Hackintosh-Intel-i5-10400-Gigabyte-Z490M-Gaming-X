@@ -2,26 +2,19 @@
 
 ![Screen Shot](./Images/Screenshot.png?raw=true)
 
+[Medium Version](https://medium.com/@Andy.Chu/step-by-step-opencore-hackintosh-guide-on-intel-10th-gen-comet-lake-cpus-e0ab4331b99f?source=friends_link&sk=c436b6a318bb4fdfe4abe1924a3b589b)
+
 # Hardware:
 
 CPU: [Intel Core 10 Gen i5-10400]
-
 RAM: [HyperX Fury 32GB 2666MHz DDR4 CL16 DIMM (Kit of 2)]
-
 Motherboard: [GIGABYTE Z490M Gaming X]
-
 GPU: [SAPPHIRE PULSE Radeon RX 5600 XT]
-
 SSD: [XPG SX8200 Pro 512GB M.2 SSD]
-
 Wifi/Bluetooth: [fenvi FV-T919 Hackintosh macOS Catalina AC1750 PC PCI-E BCM94360CD Wifi]
-
 PSU: [CORSAIR CX-M Series CX450M 450W 80 PLUS BRONZE]
-
 Fans: [Noctua NF-P14s redux-1500 PWM]
-
 CPU Cooler: [Cooler Master Hyper 212 Black Edition]
-
 Case: [darkFlash DLM21 White Micro ATX Mini Tower]
 
 # Bootloader:
