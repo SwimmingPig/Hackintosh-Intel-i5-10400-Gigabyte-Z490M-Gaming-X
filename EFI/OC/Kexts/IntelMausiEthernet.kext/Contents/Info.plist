@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.5.1d1</string>
+	<string>2.5.3d1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.5.1d1</string>
+	<string>2.5.3d1</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -50,9 +50,7 @@
 			<dict>
 				<key>enableCSO6</key>
 				<true/>
-				<key>enableTSO4</key>
-				<false/>
-				<key>enableTSO6</key>
+				<key>enableWakeOnAddrMatch</key>
 				<false/>
 				<key>maxIntrRate10</key>
 				<integer>3000</integer>
@@ -74,7 +72,7 @@
 				<integer>0</integer>
 			</dict>
 			<key>Driver_Version</key>
-			<string>2.5.1d0</string>
+			<string>2.5.3d1</string>
 			<key>IOClass</key>
 			<string>IntelMausi</string>
 			<key>IOPCIMatch</key>
